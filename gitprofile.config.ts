@@ -69,7 +69,7 @@ const CONFIG = {
     
     email: 'pk6122004@gmail.com',
   },
- ,
+ 
   skills: [
     'PHP',
     'Laravel',
