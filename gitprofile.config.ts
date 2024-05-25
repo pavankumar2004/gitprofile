@@ -57,12 +57,12 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'pavankumar2004',
+ 
     
     
     
     instagram: 'pavan_s_g',
-     // example: 'pewdiepie'
+    
     
     
     
@@ -71,20 +71,20 @@ const CONFIG = {
   },
  
   skills: [
-    'PHP',
-    'Laravel',
+
+
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Next.js',
     'MySQL',
     'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
+    'flask',
+    'django'
+    'MySql',
+    'Typescript',
   ],
   experiences: [
     {
@@ -180,11 +180,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+
 
   enablePWA: true,
 };
