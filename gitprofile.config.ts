@@ -82,7 +82,7 @@ const CONFIG = {
     'CSS',
     'Tailwind',
     'flask',
-    'django'
+    'django',
     'MySql',
     'Typescript',
   ],
