@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'monkeyelectronique.ca',
+          title: 'marinmotor.be',
           description:
-            'A website for a canadian based antivirus company built using Wordpress and PHP',
+            'A website for a belgian based car garage company built using Express js, html, css and GCP',
           imageUrl:
-            'https://monkeyelectronique.ca/wp-content/uploads/2023/08/cropped-logo-transparent-1.png',
-          link: 'https://monkeyelectronique.ca',
+            'https://www.marinmotor.be/images/logo1.png',
+          link: 'https://marinmotor.be',
         },
         {
-          title: 'Netbrix.tel',
+          title: 'Transcribe.digital',
           description:
-            'A website for a american based voip company built using Wordpress and PHP',
+            'A web application that lets the user transcript their audio/video files using the whisper model of open ai',
           imageUrl:
             'https://th.bing.com/th/id/OIP.RTDptYLa9Hy1n7HwnhtFhwHaES?rs=1&pid=ImgDetMain',
-          link: 'https://netbrix.tel',
+          link: 'https://transcribe.digital',
         },
       ],
     },
@@ -88,10 +88,10 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'web developer',
-      position: 'nettelecom.ca',
-      from: 'September 2023',
-      to:'january 2024',
+      company: 'software developer',
+      position: 'crushgrowth.com(Transcribe.digital)',
+      from: 'may 2024',
+      to:'present',
       
     },
     
