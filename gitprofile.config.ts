@@ -14,10 +14,10 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 10, // How many projects to display.
+        limit: 5, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: ['pavankumar2004/pavankumar2004'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,33 +25,43 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['pavankumar2004/TravelwithAI', 'pavankumar2004/teachtools-v1', 'pavankumar2004/airdropfinder','pavankumar2004/F1-predictions-and-analysis'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'marinmotor.be',
-          description:
-            'A website for a belgian based car garage company built using Express js, html, css and GCP',
-          imageUrl:
-            'https://www.marinmotor.be/images/logo1.png',
-          link: 'https://marinmotor.be',
-        },
-        {
-          title: 'Transcribe.digital',
-          description:
-            'A web application that lets the user transcript their audio/video files using the whisper model of open ai',
-          imageUrl:
-            'https://th.bing.com/th/id/OIP.RTDptYLa9Hy1n7HwnhtFhwHaES?rs=1&pid=ImgDetMain',
-          link: 'https://transcribe.digital',
-        },
-      ],
+external: {
+  header: 'My Projects',
+  projects: [
+    {
+      title: 'marinmotor.be',
+      description:
+        'A website for a Belgian-based car garage built using Express.js, HTML, CSS, and hosted on GCP.',
+      imageUrl: 'https://source.unsplash.com/800x600/?car,garage',
+      link: 'https://marinmotor.be',
     },
-  },
-  seo: {
+    {
+      title: 'Transcribe.digital',
+      description:
+        'A web app that transcribes audio/video files using OpenAI’s Whisper model with a clean UI.',
+      imageUrl: 'https://source.unsplash.com/800x600/?audio,transcription',
+      link: 'https://transcribe.digital',
+    },
+    {
+      title: 'EverySurvey',
+      description:
+        'A minimalistic survey builder and collector platform. Create and share surveys in seconds.',
+      imageUrl: 'https://source.unsplash.com/800x600/?survey,forms',
+      link: 'https://everysurveywebsite.vercel.app',
+    },
+    {
+      title: 'GasApps.fyi',
+      description:
+        'A directory of Google Apps Script-powered mini tools and automations curated for productivity.',
+      imageUrl: 'https://source.unsplash.com/800x600/?automation,code',
+      link: 'https://gasapps.fyi',
+    },
+  ],
+},
+ seo: {
     title: 'Portfolio of Pavan kumar',
     description: '',
     imageURL: '',
