@@ -5,7 +5,7 @@ const CONFIG = {
     username: 'pavankumar2004',
   },
 
-  base: '/gitprofile/',
+  base: '/',
 
   projects: {
     github: {
@@ -14,7 +14,7 @@ const CONFIG = {
       mode: 'manual',
       automatic: {
         sortBy: 'updated',
-        limit: 5,
+        limit: 10,
         exclude: {
           forks: false,
           projects: ['pavankumar2004/pavankumar2004'],
