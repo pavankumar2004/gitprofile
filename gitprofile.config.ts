@@ -5,7 +5,7 @@ const CONFIG = {
     username: 'pavankumar2004',
   },
 
-  base: '/',
+  base: '/profile',
 
   projects: {
     github: {
