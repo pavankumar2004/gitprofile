@@ -27,7 +27,7 @@ const CONFIG = {
         {
           title: 'Transcribe Digital',
           description: 'A transcription web app using WhisperX for diarization and transcription. Built with Flask & React. Used by 300+ users.',
-          imageUrl: 'https://transcribe.digital/logo.png',
+          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://transcribe.digital/',
         },
         {
@@ -69,7 +69,7 @@ const CONFIG = {
     email: '22pt22@psgtech.ac.in',
   },
   resume: {
-    fileUrl: '', // Optional
+    fileUrl: '',
   },
   skills: [
     'JavaScript',
@@ -104,7 +104,7 @@ const CONFIG = {
     },
   ],
   certifications: [],
-  educations: [], // Removed college
+  educations: [],
   publications: [],
   blog: {
     source: '',
@@ -119,13 +119,24 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
     disableSwitch: false,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
     themes: [
-      'light', 'dark', 'cupcake', 'synthwave', 'retro', 'valentine', 'lofi',
-      'dracula', 'nord', 'business', 'dim', 'sunset', 'procyon',
+      'light',
+      'dark',
+      'cupcake',
+      'synthwave',
+      'retro',
+      'valentine',
+      'lofi',
+      'dracula',
+      'nord',
+      'business',
+      'dim',
+      'sunset',
+      'procyon',
     ],
     customTheme: {
       primary: '#00BFA6',
