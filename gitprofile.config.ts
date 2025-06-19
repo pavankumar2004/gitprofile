@@ -71,8 +71,6 @@ const CONFIG = {
   social: {
     linkedin: 'pavankumar2004',
     website: 'https://transcribe.digital',
-    phone: '+91-90808-27026',
-    email: '22pt22@psgtech.ac.in',
   },
   resume: {
     fileUrl: '',
